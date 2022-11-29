@@ -11,9 +11,9 @@ spec:
   - 172.21.100.225
   externalTrafficPolicy: Cluster
   internalTrafficPolicy: Cluster
-  loadBalancerIP: 169.61.187.51
+  loadBalancerIP: 172.61.187.51
   loadBalancerSourceRanges:
-  - 103.21.244.0/22
+  - 10.21.244.0/22
   ports:
   - name: https
     nodePort: 30721
@@ -27,4 +27,4 @@ spec:
 status:
   loadBalancer:
     ingress:
-    - ip: 169.61.187.51
+    - ip: 172.61.187.51
